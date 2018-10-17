@@ -37,6 +37,12 @@ function displayPics(){
   }
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
   // PUT YOUR RESPONSE IN THIS COMMENT
+  //
+  // The previous code threw an error when we changed the variable declaration from var to let 
+  // becuase when we changed the variable declaration to let, the scope of the variable
+  // was confined to the code block in which it was declared. Var scopes globally so
+  // when we called the variable in the console log, it was able to access that data. 
+  // That's not the case when we use let to declare variables within a specific code block. 
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
